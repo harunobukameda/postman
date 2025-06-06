@@ -24,6 +24,26 @@
 				}
 			},
 			"response": []
+		},
+		{
+			"name": "githubtest.requestcatcher.com",
+			"id": "13003149-0d1d9116-ac3e-4cde-a3b5-c94b08dd8dfc",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "githubtest.requestcatcher.com",
+					"host": [
+						"githubtest",
+						"requestcatcher",
+						"com"
+					]
+				}
+			},
+			"response": []
 		}
 	]
 }
