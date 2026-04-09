@@ -1,0 +1,8 @@
+{
+  "endpoints": {
+    "/": {
+      "post": "import { Fromspec, NewRequestRequest } from 'fromspec';\n\n(async () => {\n  const fromspec = new Fromspec({});\n\n  \n  const newRequestRequest: NewRequestRequest = {\t\n    userid: \"kameda\"\n  };\n\n  const data = await fromspec.root.newRequest(\n  newRequestRequest,\n  {\n      userid: \"string\",\n      time: \"1484\",\n      accept: \"application/json\",\n  }\n);\n\n  console.log(data);\n})();\n"
+    }
+  },
+  "example": "import { Fromspec, NewRequestRequest } from 'fromspec';\n\n(async () => {\n  const fromspec = new Fromspec({});\n\n  \n  const newRequestRequest: NewRequestRequest = {\t\n    userid: \"kameda\"\n  };\n\n  const data = await fromspec.root.newRequest(\n  newRequestRequest,\n  {\n      userid: \"string\",\n      time: \"1484\",\n      accept: \"application/json\",\n  }\n);\n\n  console.log(data);\n})();\n"
+}
